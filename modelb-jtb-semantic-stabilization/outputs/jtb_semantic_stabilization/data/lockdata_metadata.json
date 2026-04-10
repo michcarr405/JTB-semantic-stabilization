@@ -1,0 +1,18 @@
+{
+  "script": "jtb_semantic_stabilization_suite.py",
+  "n_gens": 200,
+  "n_reps": 30,
+  "focal_inherit": 0.8,
+  "sweep_inherits": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "mi_threshold_quantile": 0.9,
+  "mi_threshold_value": 0.320527666086021,
+  "stab_window": 20,
+  "seed_scheme": "seed = 2_000_000 + int(md5(condition)[:8],16) + rep"
+}

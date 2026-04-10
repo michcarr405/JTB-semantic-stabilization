@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "familywise_metrics": [
+      "p_stab",
+      "dwell",
+      "delta_fitness",
+      "delta_mi",
+      "fitness_final"
+    ],
+    "n_pairwise_tests": 90,
+    "inherit_probs": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "overlay_kinds": [
+      "AR",
+      "PB",
+      "TAC"
+    ]
+  },
+  "mi_threshold": 0.320527666086021,
+  "focal_inherit_for_threshold": 0.8,
+  "stab_window": 20,
+  "note": "Pairwise tests compare each overlay to baseline at the same inheritance probability; FDR is corrected within each metric family."
+}

@@ -1,0 +1,361 @@
+{
+  "comparisons": {
+    "TAC_s0.25": {
+      "stabilization_fisher": {
+        "p": 5.242482506564867e-16,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            29,
+            1
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 2.943145765076036e-11
+      },
+      "fitness_final_mannwhitney": {
+        "U": 231.0,
+        "p": 0.0012357964692135575
+      },
+      "innovation_mannwhitney": {
+        "U": 103.5,
+        "p": 2.970356117026415e-07
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 261.0,
+        "p": 0.005322077805144202
+      },
+      "delta_mi_mannwhitney": {
+        "U": 49.0,
+        "p": 3.1967402228021653e-09
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.6653333333333333,
+        "fitness_final_delta_mean": 0.5010937500000026,
+        "delta_fitness_delta_mean": 0.49432291666666706,
+        "delta_mi_delta_mean": 0.02252867363011346,
+        "innovation_delta_mean": 7.066666666666668,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 0.9666666666666667
+      }
+    },
+    "TAC_s0.5": {
+      "stabilization_fisher": {
+        "p": 1.6911233892144735e-17,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 1.4939927452423507e-11
+      },
+      "fitness_final_mannwhitney": {
+        "U": 128.0,
+        "p": 2.001638545517939e-06
+      },
+      "innovation_mannwhitney": {
+        "U": 900.0,
+        "p": 1.1699182694405219e-12
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 164.0,
+        "p": 2.4327116616469627e-05
+      },
+      "delta_mi_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.8693333333333335,
+        "fitness_final_delta_mean": 0.8321614583333385,
+        "delta_fitness_delta_mean": 0.758671875,
+        "delta_mi_delta_mean": 0.06509180827526767,
+        "innovation_delta_mean": -12.033333333333333,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 1.0
+      }
+    },
+    "TAC_s0.75": {
+      "stabilization_fisher": {
+        "p": 1.6911233892144735e-17,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 1.264988914504633e-11
+      },
+      "fitness_final_mannwhitney": {
+        "U": 14.0,
+        "p": 1.2056679006359843e-10
+      },
+      "innovation_mannwhitney": {
+        "U": 900.0,
+        "p": 1.1699182694405219e-12
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 25.0,
+        "p": 3.4741966068317727e-10
+      },
+      "delta_mi_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.8735,
+        "fitness_final_delta_mean": 1.9973697916666566,
+        "delta_fitness_delta_mean": 1.920598958333333,
+        "delta_mi_delta_mean": 0.13476967273534146,
+        "innovation_delta_mean": -12.033333333333333,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 1.0
+      }
+    },
+    "TAC_s1.0": {
+      "stabilization_fisher": {
+        "p": 1.6911233892144735e-17,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 1.6770190629370613e-12
+      },
+      "fitness_final_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "innovation_mannwhitney": {
+        "U": 900.0,
+        "p": 1.1699182694405219e-12
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "delta_mi_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.8756666666666666,
+        "fitness_final_delta_mean": 5.9112499999999955,
+        "delta_fitness_delta_mean": 5.9859374999999995,
+        "delta_mi_delta_mean": 0.21450523428915805,
+        "innovation_delta_mean": -12.033333333333333,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 1.0
+      }
+    },
+    "PB_c0.5": {
+      "stabilization_fisher": {
+        "p": 1.6911233892144735e-17,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 2.0125716517797183e-11
+      },
+      "fitness_final_mannwhitney": {
+        "U": 262.0,
+        "p": 0.005569938587360544
+      },
+      "innovation_mannwhitney": {
+        "U": 900.0,
+        "p": 1.1379015599981029e-11
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 280.0,
+        "p": 0.012211939665202363
+      },
+      "delta_mi_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.8763333333333332,
+        "fitness_final_delta_mean": 0.3954166666666694,
+        "delta_fitness_delta_mean": 0.3797916666666663,
+        "delta_mi_delta_mean": 0.041983524326022204,
+        "innovation_delta_mean": -11.633333333333333,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 1.0
+      }
+    },
+    "PB_c1.0": {
+      "stabilization_fisher": {
+        "p": 1.6911233892144735e-17,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            30,
+            0
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 0.0,
+        "p": 1.4324787345200239e-11
+      },
+      "fitness_final_mannwhitney": {
+        "U": 298.0,
+        "p": 0.025099261868399492
+      },
+      "innovation_mannwhitney": {
+        "U": 900.0,
+        "p": 1.1699182694405219e-12
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 349.0,
+        "p": 0.13732283484699295
+      },
+      "delta_mi_mannwhitney": {
+        "U": 0.0,
+        "p": 3.019859359162157e-11
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": 0.883,
+        "fitness_final_delta_mean": 0.33802083333332433,
+        "delta_fitness_delta_mean": 0.2861718750000004,
+        "delta_mi_delta_mean": 0.06804986109135074,
+        "innovation_delta_mean": -12.033333333333333,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 1.0
+      }
+    },
+    "AR_s0.5": {
+      "stabilization_fisher": {
+        "p": 1.0,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 537.0,
+        "p": 0.19992732084131026
+      },
+      "fitness_final_mannwhitney": {
+        "U": 437.0,
+        "p": 0.8533817367547931
+      },
+      "innovation_mannwhitney": {
+        "U": 536.0,
+        "p": 0.20408084081299893
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 539.5,
+        "p": 0.18823038825016092
+      },
+      "delta_mi_mannwhitney": {
+        "U": 411.0,
+        "p": 0.5692201637415295
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": -0.010499999999999968,
+        "fitness_final_delta_mean": 0.04148437499999602,
+        "delta_fitness_delta_mean": -0.15067708333333332,
+        "delta_mi_delta_mean": 0.0017112411390244192,
+        "innovation_delta_mean": -1.166666666666666,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 0.0
+      }
+    },
+    "AR_s1.0": {
+      "stabilization_fisher": {
+        "p": 1.0,
+        "table": [
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            30
+          ]
+        ]
+      },
+      "dwell_mannwhitney": {
+        "U": 672.0,
+        "p": 0.00103859484962547
+      },
+      "fitness_final_mannwhitney": {
+        "U": 264.0,
+        "p": 0.006097142345173947
+      },
+      "innovation_mannwhitney": {
+        "U": 711.0,
+        "p": 0.00011394432859971901
+      },
+      "delta_fitness_mannwhitney": {
+        "U": 269.0,
+        "p": 0.007617064306244218
+      },
+      "delta_mi_mannwhitney": {
+        "U": 709.0,
+        "p": 0.0001324951052218608
+      },
+      "effect_sizes": {
+        "dwell_delta_mean": -0.03433333333333333,
+        "fitness_final_delta_mean": 0.4251302083333286,
+        "delta_fitness_delta_mean": 0.4395833333333322,
+        "delta_mi_delta_mean": -0.022103368163271363,
+        "innovation_delta_mean": -4.800000000000001,
+        "p_stab_baseline": 0.0,
+        "p_stab_cond": 0.0
+      }
+    }
+  },
+  "mi_threshold": 0.320527666086021,
+  "focal_inherit": 0.8,
+  "n_reps": 30,
+  "n_gens": 200,
+  "stab_window": 20
+}

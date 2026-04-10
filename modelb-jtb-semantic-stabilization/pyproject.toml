@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modelb-jtb-semantic-stabilization"
+version = "0.1.0"
+description = "Code, analysis, and figure-generation workflow for a JTB manuscript on semantic stabilization in Model B"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Michael Carr"}]
+dependencies = [
+  "numpy>=1.23",
+  "tqdm>=4.0",
+  "matplotlib>=3.6",
+  "pandas>=1.5",
+  "scipy>=1.9"
+]
+
+[project.optional-dependencies]
+speed = ["numba>=0.57"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
